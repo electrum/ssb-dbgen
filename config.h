@@ -100,6 +100,11 @@
 #define STDLIB_HAS_GETOPT
 #endif /* LINUX */
 
+#ifdef MAC
+#define _POSIX_SOURCE
+#define STDLIB_HAS_GETOPT
+#endif /* MAC */
+
 #ifdef SGI
 #define STDLIB_HAS_GETOPT
 #define SUPPORT_64BITS

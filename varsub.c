@@ -1,4 +1,5 @@
 /* Sccsid:     @(#)varsub.c	2.1.8.3 */
+#include "config.h"
 #include <stdio.h>
 #ifndef _POSIX_SOURCE
 #include <malloc.h>

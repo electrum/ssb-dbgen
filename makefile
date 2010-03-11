@@ -9,7 +9,7 @@ CC      = gcc
 #                                  SGI, SUN, U2200, VMS, LINUX
 # Current values for WORKLOAD are:  SSBM, TPCH, TPCR
 DATABASE=DB2 
-MACHINE =LINUX 
+MACHINE =MAC
 WORKLOAD =SSBM 
 #
 # add -EDTERABYTE if orderkey will execeed 32 bits (SF >= 300)
